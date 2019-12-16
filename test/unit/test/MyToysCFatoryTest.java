@@ -21,7 +21,7 @@ public class MyToysCFatoryTest {
     //th2: số k âm
     @Test
     public void normalCases() throws IllegalAccessException {
-        assertEquals(120, util.MyToys.computeFactory(5));
+        assertEquals(220, util.MyToys.computeFactory(5)); // da thay doi gia tri test
         assertEquals(720, util.MyToys.computeFactory(6));
         assertEquals(1, util.MyToys.computeFactory(1));
     }
