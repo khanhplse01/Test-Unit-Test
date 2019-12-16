@@ -24,6 +24,7 @@ public class MyToysCFatoryTest {
         assertEquals(120, util.MyToys.computeFactory(5)); // da thay doi gia tri test
         assertEquals(720, util.MyToys.computeFactory(6));
         assertEquals(1, util.MyToys.computeFactory(1));
+        assertEquals(1, util.MyToys.computeFactory(0));
     }
     @Test(expected = IllegalAccessException.class)
     public void exceptCases() throws IllegalAccessException{
