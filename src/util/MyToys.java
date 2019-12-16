@@ -38,7 +38,7 @@ public class MyToys {
             re *= i;
         }
         return re;
-        abcxyz
+        
     }
     // còn nhiều hàm # thì còn nhiều class khác
     //đôi khi ta muốn 1 nhóm các class # dc chạy nhưng k phải tất cả
